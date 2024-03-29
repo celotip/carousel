@@ -36,7 +36,7 @@ img {
     aspect-ratio: 3 / 2
 }
 
-.buttons button {
+button {
     text-decoration: none;
     width: 40px;
     height: 40px;
@@ -52,6 +52,7 @@ img {
     border: none;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0);
+    display: none;
 }
 
 button:hover {
@@ -92,4 +93,8 @@ ul {
 .current-page {
     cursor: default !important;
     background: #2d2d2d !important;
+}
+
+.container:hover .buttons button {
+    display: block;
 }
