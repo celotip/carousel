@@ -1,2 +1,2 @@
-# carousel
-A simple calculator made fully with HTML, CSS, and JavaScript
+# Carousel
+A simple carousel made fully with HTML, CSS, and JavaScript
